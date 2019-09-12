@@ -9,10 +9,10 @@
 </head>
 
 <body>
-  <script src="js/three.js"></script>
-  <script src="js/OrbitControls.js"></script>
-  <script src="js/ObjectLoader.js"></script>
-  <script src="js/GLTFLoader.js"></script>
+  <script src="three.js"></script>
+  <script src="OrbitControls.js"></script>
+  <script src="ObjectLoader.js"></script>
+  <script src="GLTFLoader.js"></script>
   
  	<script>
  	  var scene = new THREE.Scene( );
@@ -69,12 +69,12 @@
  	   var geometry = new THREE.BoxGeometry( 1, 1, 1 );
  	  var cubeMaterials =
  	  [
- 	    new THREE.MeshBasicMaterial( { map: new THREE.TextureLoader().load('img/mariobrick.png'), side: THREE.DoubleSide }), //RIGHT SIDE
- 	    new THREE.MeshBasicMaterial( { map: new THREE.TextureLoader().load('img/mariobrick.png'), side: THREE.DoubleSide }),  //LEFT SIDE
- 	    new THREE.MeshBasicMaterial( { map: new THREE.TextureLoader().load('img/mariobrick.png'), side: THREE.DoubleSide }), //TOP SIDE
- 	    new THREE.MeshBasicMaterial( { map: new THREE.TextureLoader().load('img/mariobrick.png'), side: THREE.DoubleSide }),  //BOTTOM SIDE
- 	    new THREE.MeshBasicMaterial( { map: new THREE.TextureLoader().load('img/mariobrick.png'), side: THREE.DoubleSide }), //FRONT SIDE
- 	    new THREE.MeshBasicMaterial( { map: new THREE.TextureLoader().load('img/mariobrick.png'), side: THREE.DoubleSide }) //BACK SIDE
+ 	    new THREE.MeshBasicMaterial( { map: new THREE.TextureLoader().load('mariobrick.png'), side: THREE.DoubleSide }), //RIGHT SIDE
+ 	    new THREE.MeshBasicMaterial( { map: new THREE.TextureLoader().load('mariobrick.png'), side: THREE.DoubleSide }),  //LEFT SIDE
+ 	    new THREE.MeshBasicMaterial( { map: new THREE.TextureLoader().load('mariobrick.png'), side: THREE.DoubleSide }), //TOP SIDE
+ 	    new THREE.MeshBasicMaterial( { map: new THREE.TextureLoader().load('mariobrick.png'), side: THREE.DoubleSide }),  //BOTTOM SIDE
+ 	    new THREE.MeshBasicMaterial( { map: new THREE.TextureLoader().load('mariobrick.png'), side: THREE.DoubleSide }), //FRONT SIDE
+ 	    new THREE.MeshBasicMaterial( { map: new THREE.TextureLoader().load('mariobrick.png'), side: THREE.DoubleSide }) //BACK SIDE
  	    
  	    ];
  	  

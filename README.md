@@ -20,7 +20,9 @@ For this project I was able to learn the following:
 - working with GTLF files using GLTFLoader.js 
 
 
+### Extras
 
+Here's the program link. Enjoy! : https://designisorion.github.io/Enter-The-Brick/
 
 
 # Author: 
